@@ -15,6 +15,7 @@
 		4AC7CF2C1A4B609E00981B53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7CF2B1A4B609E00981B53 /* Images.xcassets */; };
 		4AC7CF2F1A4B609E00981B53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7CF2D1A4B609E00981B53 /* LaunchScreen.xib */; };
 		4AC7CF3B1A4B609E00981B53 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7CF3A1A4B609E00981B53 /* Git_TestTests.m */; };
+		4AC7CF461A4B63B600981B53 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7CF451A4B63B600981B53 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		4AC7CF341A4B609E00981B53 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC7CF391A4B609E00981B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC7CF3A1A4B609E00981B53 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		4AC7CF441A4B63B600981B53 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		4AC7CF451A4B63B600981B53 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 		4AC7CF0F1A4B609E00981B53 = {
 			isa = PBXGroup;
 			children = (
+				4AC7CF441A4B63B600981B53 /* CCTest.h */,
+				4AC7CF451A4B63B600981B53 /* CCTest.m */,
 				4AC7CF1A1A4B609E00981B53 /* Git Test */,
 				4AC7CF371A4B609E00981B53 /* Git TestTests */,
 				4AC7CF191A4B609E00981B53 /* Products */,
@@ -226,6 +231,7 @@
 				4AC7CF1E1A4B609E00981B53 /* main.m in Sources */,
 				4AC7CF271A4B609E00981B53 /* ViewController.m in Sources */,
 				4AC7CF241A4B609E00981B53 /* Git_Test.xcdatamodeld in Sources */,
+				4AC7CF461A4B63B600981B53 /* CCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
